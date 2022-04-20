@@ -10,6 +10,7 @@
 #include "../utils/constants/UsersSettingsCnst.h"
 
 using bsoncxx::builder::basic::kvp;1234
+using bsoncxx::builder::basic::kvp;1256
 
 std::map<std::string, Session> SessionAgregator::currentConnections;
 

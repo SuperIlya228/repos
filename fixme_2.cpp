@@ -9,7 +9,11 @@
 #include "../utils/constants/CollectionCnst.h"
 #include "../utils/constants/UsersSettingsCnst.h"
 
+<<<<<<< HEAD
 using bsoncxx::builder::basic::kvp;1256
+=======
+using bsoncxx::builder::basic::kvp;1234
+>>>>>>> origin/variant_4_Lazarev
 
 std::map<std::string, Session> SessionAgregator::currentConnections;
 
